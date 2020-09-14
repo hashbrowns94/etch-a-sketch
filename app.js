@@ -8,6 +8,9 @@ let grid = function() {
         gridBlock.addEventListener('mouseover', function(){
             gridBlock.style.backgroundColor = "black";
         })
+        document.getElementById('button').addEventListener('click', function(){
+            gridBlock.style.backgroundColor = "rgb(219, 205, 205)";
+        })
     }
 }
 grid();

@@ -1,5 +1,30 @@
-html, body {
+html {
     height: 100%;
+    text-align: center;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(233, 41, 27);
+    font-family: Source Sans Pro;
+}
+
+button {
+    font-family: Source Sans Pro;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    color: #E9FF38;
+    margin-top: 8vh;
+    width: 100px;
+    height: 50px;
+    background-color: #FF756B;
+}
+
+#header{
+    color: #E9FF38;
+    font-size: 50px;
 }
 
 .container {
@@ -9,10 +34,9 @@ html, body {
     height: 500px;
     width: 500px;
     border: solid;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
 }
 
 .block {
-    background-color: purple;
+    background-color: rgb(219, 205, 205);
 }
